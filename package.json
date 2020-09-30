@@ -1,0 +1,42 @@
+{
+  "name": "checkers",
+  "version": "1.0.0",
+  "description": "Checkers board game SPA with React",
+  "main": "server/index.js",
+  "scripts": {
+    "build": "webpack -d --watch",
+    "start": "nodemon -L server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mztaylor7/checkers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mztaylor7/checkers/issues"
+  },
+  "homepage": "https://github.com/mztaylor7/checkers#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "^7.11.2",
+    "axios": "^0.20.0",
+    "babel-loader": "^8.1.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "regenerator-runtime": "^0.13.7",
+    "require": "^2.4.20",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "styled-components": "^5.2.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
