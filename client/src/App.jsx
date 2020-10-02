@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles.scss';
 
+import GameBoard from './components/GameBoard'
+
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -12,7 +14,7 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        Hello World
+        <GameBoard />
       </div>
     )
   }
